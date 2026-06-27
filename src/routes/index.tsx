@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import portrait from "@/assets/portrait.jpg";
+import chandu from "@/assets/chandu.jpg";
 import { Mail, Phone, GraduationCap, Code2, Briefcase, User, Home as HomeIcon, MapPin } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -109,11 +109,11 @@ function Index() {
               ))}
             </dl>
           </div>
-
+ 
           <div className="relative mx-auto w-full max-w-md">
             <div className="absolute -inset-4 rounded-3xl bg-primary/20 blur-2xl" aria-hidden />
             <div className="relative overflow-hidden rounded-3xl border border-border bg-card shadow-2xl">
-              <img src={portrait} alt="Portrait of Chandra Vamsi" width={1024} height={1280} className="h-full w-full object-cover" />
+              <img src={chandu} alt="Portrait of Chandra Vamsi" width={1024} height={1280} className="h-full w-full object-cover" />
             </div>
           </div>
         </div>
